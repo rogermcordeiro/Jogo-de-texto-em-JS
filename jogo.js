@@ -41,7 +41,7 @@ let inimigo = {
 
 //Mensagem de boas vindas:
 console.log(
-  "\nSeja bem vindo " +
+  "\nSeja bem vindo(a) " +
     jogador.nick +
     "!\n\nEste é um jogo de turnos contra um robô, você tera 3 opções quando começar(atacar, defender, tomar uma poção), digite somente o número correspondente a cada uma delas.\nDica: Você terá somente 2 poções de dano e 5 poções de cura, então as use bem...\n\nSe divirta 😀\n(Não o emoji não é pq fiz com IA)",
 );
