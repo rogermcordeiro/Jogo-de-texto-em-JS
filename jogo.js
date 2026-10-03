@@ -143,7 +143,7 @@ while (jogador.vida > 0 && inimigo.vida > 0) {
           break;
       }
       break;
-      
+
     case "67":
       console.log("SIX SEVEEEENNN!!!!!!");
       break;
@@ -266,6 +266,17 @@ while (jogador.vida > 0 && inimigo.vida > 0) {
       inimigo.vida += 5;
       inimigo.qtd_cura -= 1;
       console.log("\nEle curou 5 de vida utilizando a poção de cura\n");
+      break;
+
+    case 5:
+      inimigo.defesa = Math.floor(Math.random() * 10) + 1;
+      inimigo.defender();
+      inimigo.modo_defesa = true;
+      console.log(
+        "Ele preparou sua defesa, se você o atacar na próxima rodada ele irá tomar " +
+          inimigo.defesa +
+          " de dano a menos\n",
+      );
       break;
   }
   //Contagem poção de dano do Jogador
