@@ -142,8 +142,10 @@ while (jogador.vida > 0 && inimigo.vida > 0) {
           console.log("\nSó 1 ou 2 imbecil...");
           break;
       }
+      break;
+      
     case "67":
-        console.log("SIX SEVEEEENNN!!!!!!");
+      console.log("SIX SEVEEEENNN!!!!!!");
       break;
 
     default:
